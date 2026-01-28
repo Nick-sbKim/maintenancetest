@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자격유지검사 대행</title>
+    <title>고령운전자 자격유지검사 대행</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Lucide Icons -->
@@ -71,7 +71,7 @@
     <header class="relative pt-24 pb-16 md:pt-48 md:pb-40 px-4 overflow-hidden text-white navy-bg text-center">
         <div class="max-w-5xl mx-auto relative z-10">
             <div class="inline-flex items-center bg-white text-blue-900 px-4 py-1 rounded-full text-base md:text-2xl font-black mb-8 shadow-2xl">
-                자격유지검사 접수대행 서비스
+                고령운전자 자격유지검사 접수대행 서비스
             </div>
             
             <div class="mb-8 space-y-3 md:space-y-6 text-center">
@@ -102,7 +102,7 @@
                     <p class="text-white font-black text-2xl md:text-7xl tracking-tighter">
                         상담문의 : <span class="underline decoration-yellow-400 underline-offset-4 md:underline-offset-[12px]">1566-7114</span>
                     </p>
-                    <p class="text-blue-200 font-bold text-base md:text-3xl mt-1 md:mt-4">전화 한 통이면 모든 과정이 해결됩니다!</p>
+                    <p class="text-blue-200 font-bold text-base md:text-3xl mt-1 md:mt-4 text-center">전화 한 통이면 모든 과정이 해결됩니다!</p>
                 </div>
             </div>
         </div>
@@ -111,15 +111,14 @@
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24 text-center">
         
-        <div class="text-center mb-16 md:mb-24 max-w-4xl mx-auto">
-            <!-- 텍스트와 노란선 사이의 간격을 mb-4에서 mb-10으로 확대 -->
+        <div class="text-center mb-12 max-w-4xl mx-auto">
             <h2 class="text-xl md:text-5xl font-black mb-8 md:mb-12 leading-tight tracking-tight navy-text px-2">
                 직접 하기 어려운 인터넷 예약 도와드립니다.
             </h2>
             <div class="w-16 md:w-24 h-1 md:h-2 yellow-bg mx-auto rounded-full"></div>
         </div>
         
-        <!-- Photo Gallery -->
+        <!-- Photo Gallery (Real photos integrated) -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mb-12 md:mb-24">
             <div class="relative w-full aspect-video bg-slate-100 rounded-[25px] md:rounded-[40px] overflow-hidden shadow-xl border-[6px] md:border-[10px] border-white">
                 <img src="image_e84d81.png" alt="상담 현장 1" class="w-full h-full object-cover">
@@ -267,17 +266,17 @@
         </div>
     </footer>
 
-    <!-- Mobile Bottom Bar -->
-    <div class="md:hidden fixed bottom-0 left-0 right-0 z-[120] yellow-bg p-4 shadow-[0_-15px_40px_rgba(0,0,0,0.2)] flex items-center justify-between border-t border-yellow-500">
+    <!-- Mobile Bottom Bar (Entire area clickable) -->
+    <a href="tel:1566-7114" class="md:hidden fixed bottom-0 left-0 right-0 z-[120] yellow-bg p-4 shadow-[0_-15px_40px_rgba(0,0,0,0.2)] flex items-center justify-between border-t border-yellow-500 active:opacity-80 transition-opacity">
         <div class="flex flex-col text-left">
             <span class="text-blue-900 font-black text-base tracking-tighter text-left">자격유지검사 예약</span>
             <span class="text-blue-900 font-black text-lg mt-0.5 tracking-widest leading-none text-left">1566-7114</span>
         </div>
-        <a href="tel:1566-7114" class="navy-bg text-white px-6 py-2.5 rounded-xl font-black text-base flex items-center gap-2 active:scale-90 transition-transform shadow-xl">
+        <div class="navy-bg text-white px-6 py-2.5 rounded-xl font-black text-base flex items-center gap-2 shadow-xl">
             <i data-lucide="phone" class="w-5 h-5"></i>
             전화연결
-        </a>
-    </div>
+        </div>
+    </a>
 
     <!-- Desktop Floating Action Button -->
     <div class="hidden md:flex fixed bottom-12 right-12 z-[110] flex-col items-end group">
@@ -313,4 +312,3 @@
     </script>
 </body>
 </html>
-
