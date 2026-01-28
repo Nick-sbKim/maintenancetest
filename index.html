@@ -34,7 +34,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 overflow-x-hidden">
+<body class="bg-gray-50 overflow-x-hidden text-center md:text-left">
 
     <!-- Navigation -->
     <nav id="navbar" class="fixed top-0 left-0 right-0 z-[100] transition-all duration-300 bg-white shadow-md py-4">
@@ -59,10 +59,10 @@
             </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 p-6 space-y-4 shadow-2xl">
-            <a href="#intro" class="block text-lg font-black text-gray-800 text-left">서비스 안내</a>
-            <a href="#process" class="block text-lg font-black text-gray-800 text-left">이용 방법</a>
-            <a href="#location" class="block text-lg font-black text-gray-800 text-left">오시는 길</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 p-6 space-y-4 shadow-2xl text-left">
+            <a href="#intro" class="block text-lg font-black text-gray-800">서비스 안내</a>
+            <a href="#process" class="block text-lg font-black text-gray-800">이용 방법</a>
+            <a href="#location" class="block text-lg font-black text-gray-800">오시는 길</a>
             <a href="tel:1566-7114" class="block text-lg font-black text-blue-900 bg-blue-50 p-3 rounded-xl text-center">문의: 1566-7114</a>
         </div>
     </nav>
@@ -74,8 +74,8 @@
                 <span class="red-text mr-2">(무료)</span> 자격유지검사 접수대행 서비스
             </div>
             
-            <div class="mb-8 space-y-3 md:space-y-6">
-                <h1 class="text-xl md:text-6xl font-black leading-tight tracking-tight">
+            <div class="mb-8 space-y-3 md:space-y-6 text-center">
+                <h1 class="text-xl md:text-6xl font-black leading-tight tracking-tight whitespace-nowrap md:whitespace-normal">
                     자격유지검사 / 의료적성검사 예약!!
                 </h1>
                 <h2 class="text-lg md:text-6xl font-black leading-tight tracking-tight">
@@ -83,27 +83,26 @@
                 </h2>
             </div>
             
-            <p class="text-base md:text-4xl font-bold mb-8 text-blue-50 leading-relaxed">
+            <p class="text-base md:text-4xl font-bold mb-8 text-blue-50 leading-relaxed text-center">
                 예약시기를 놓치지 마시고, 편하게 접수하세요.
             </p>
 
             <div class="max-w-3xl mx-auto bg-white/10 p-6 md:p-14 rounded-[25px] md:rounded-[40px] mb-10 backdrop-blur-md border border-white/20 shadow-inner">
-                <p class="text-base md:text-3xl font-bold leading-relaxed md:leading-[2.5] text-white italic">
-                    "저희는 조합원분들의 편의를 최우선으로 생각하며,<br /> 
-                    정성을 다해 도와드리겠습니다."
+                <p class="text-base md:text-3xl font-bold leading-relaxed md:leading-[2.5] text-white italic px-2 text-center">
+                    "저희는 조합원분들의 편의를 최우선으로, 정성을 다해 도와드리겠습니다."
                 </p>
             </div>
 
-            <div class="flex flex-col items-center gap-8">
+            <div class="flex flex-col items-center gap-8 text-center">
                 <a href="tel:1566-7114" class="group w-full md:w-auto inline-flex items-center justify-center gap-3 py-5 md:py-8 px-8 md:px-16 rounded-full shadow-2xl transform transition active:scale-95 text-xl md:text-5xl font-black yellow-bg text-blue-900 border-b-[6px] md:border-b-[12px] border-yellow-600 hover:translate-y-1">
-                    <i data-lucide="phone" fill="#1a365d" class="w-10 h-10 md:w-16 md:h-16"></i>
+                    <i data-lucide="phone" fill="#1a365d" class="w-6 h-6 md:w-12 md:h-12"></i>
                     바로 전화예약
                 </a>
                 <div class="space-y-2">
                     <p class="text-white font-black text-2xl md:text-7xl tracking-tighter">
                         상담문의 : <span class="underline decoration-yellow-400 underline-offset-4 md:underline-offset-[12px]">1566-7114</span>
                     </p>
-                    <p class="text-blue-200 font-bold text-base md:text-3xl mt-1 md:mt-4 text-center">전화 한 통이면 모든 과정이 해결됩니다!</p>
+                    <p class="text-blue-200 font-bold text-base md:text-3xl mt-1 md:mt-4">전화 한 통이면 모든 과정이 해결됩니다!</p>
                 </div>
             </div>
         </div>
@@ -119,23 +118,20 @@
             <div class="w-16 md:w-24 h-1 md:h-2 yellow-bg mx-auto rounded-full"></div>
         </div>
         
-        <!-- Image Placeholder -->
-        <div class="relative w-full aspect-video md:aspect-[21/9] bg-slate-100 rounded-[25px] md:rounded-[50px] overflow-hidden mb-12 md:mb-24 shadow-2xl border-[6px] md:border-[12px] border-white mx-auto">
-            <div class="absolute inset-0 flex flex-col items-center justify-center bg-gray-50">
-                <div class="text-center p-4 md:p-10">
-                    <div class="bg-white w-12 h-12 md:w-24 md:h-24 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-6 shadow-md">
-                        <i data-lucide="mouse-pointer" class="text-blue-900 w-6 h-6 md:w-12 md:h-12 animate-bounce-custom"></i>
-                    </div>
-                    <p class="text-lg md:text-3xl font-black text-blue-900 opacity-40 mb-1 md:mb-4 text-center">[상담 사진 자리]</p>
-                    <p class="text-sm md:text-xl font-bold text-gray-400 italic text-center">조합원님을 친절히 모시는 사진을 넣어주세요</p>
-                </div>
+        <!-- Photo Gallery (Real photos integrated) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mb-12 md:mb-24">
+            <div class="relative w-full aspect-video bg-slate-100 rounded-[25px] md:rounded-[40px] overflow-hidden shadow-xl border-[6px] md:border-[10px] border-white">
+                <img src="image_e84d81.png" alt="상담 현장 1" class="w-full h-full object-cover">
+            </div>
+            <div class="relative w-full aspect-video bg-slate-100 rounded-[25px] md:rounded-[40px] overflow-hidden shadow-xl border-[6px] md:border-[10px] border-white">
+                <img src="image_e84d7c.png" alt="상담 현장 2" class="w-full h-full object-cover">
             </div>
         </div>
         
         <!-- Features Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-10 mb-12 md:mb-24">
             <div class="bg-white p-6 md:p-12 rounded-[25px] md:rounded-[40px] shadow-sm border border-gray-100 transition-transform duration-500 hover:-translate-y-1">
-                <div class="flex items-center gap-3 md:gap-6 mb-3 md:mb-10">
+                <div class="flex items-center gap-3 md:gap-6 mb-3 md:mb-10 justify-start">
                     <div class="bg-blue-50 w-10 h-10 md:w-24 md:h-24 rounded-xl md:rounded-3xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="mouse-pointer" class="text-blue-900 w-5 h-5 md:w-12 md:h-12"></i>
                     </div>
@@ -147,7 +143,7 @@
             </div>
             
             <div class="bg-white p-6 md:p-12 rounded-[25px] md:rounded-[40px] shadow-sm border border-gray-100 transition-transform duration-500 hover:-translate-y-1">
-                <div class="flex items-center gap-3 md:gap-6 mb-3 md:mb-10">
+                <div class="flex items-center gap-3 md:gap-6 mb-3 md:mb-10 justify-start">
                     <div class="bg-green-50 w-10 h-10 md:w-24 md:h-24 rounded-xl md:rounded-3xl flex items-center justify-center flex-shrink-0">
                         <i data-lucide="hospital" class="text-green-800 w-5 h-5 md:w-12 md:h-12"></i>
                     </div>
@@ -193,35 +189,35 @@
 
     <!-- Process -->
     <section id="process" class="py-12 md:py-24 bg-slate-50 px-4 text-center">
-        <h2 class="text-2xl md:text-5xl font-black mb-10 md:mb-20 navy-text text-center">방문 이용 절차</h2>
+        <h2 class="text-2xl md:text-5xl font-black mb-10 md:mb-20 navy-text">방문 이용 절차</h2>
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
             <div class="group">
                 <div class="bg-white w-20 h-20 md:w-32 md:h-32 rounded-[20px] md:rounded-[40px] flex items-center justify-center mx-auto mb-4 md:mb-8 shadow-md border-4 border-blue-900 transition-transform group-hover:rotate-6">
                     <i data-lucide="phone" class="text-blue-900 w-8 h-8 md:w-14 md:h-14"></i>
                 </div>
-                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center">01. 전화예약</h4>
+                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center uppercase tracking-tighter">01. 전화예약</h4>
                 <p class="text-base md:text-xl font-bold text-gray-500 text-center">방문 시간 약속</p>
             </div>
             <div class="group">
                 <div class="navy-bg w-20 h-20 md:w-32 md:h-32 rounded-[20px] md:rounded-[40px] flex items-center justify-center mx-auto mb-4 md:mb-8 shadow-md border-4 border-white transition-transform group-hover:-translate-y-1">
                     <i data-lucide="car" class="text-white w-8 h-8 md:w-14 md:h-14"></i>
                 </div>
-                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center">02. 센터 방문</h4>
+                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center uppercase tracking-tighter">02. 센터 방문</h4>
                 <p class="text-base md:text-xl font-bold text-blue-800 underline underline-offset-4 decoration-2 text-center">교통회관 11층(주차지원)</p>
             </div>
             <div class="group">
                 <div class="bg-white w-20 h-20 md:w-32 md:h-32 rounded-[20px] md:rounded-[40px] flex items-center justify-center mx-auto mb-4 md:mb-8 shadow-md border-4 border-blue-900 transition-transform group-hover:-rotate-6">
                     <i data-lucide="check-circle" class="text-blue-900 w-8 h-8 md:w-14 md:h-14"></i>
                 </div>
-                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center">03. 현장접수</h4>
+                <h4 class="text-xl md:text-3xl font-black mb-2 text-blue-900 text-center uppercase tracking-tighter">03. 현장접수</h4>
                 <p class="text-base md:text-xl font-bold text-gray-500 text-center">1:1 즉시 접수 대행</p>
             </div>
         </div>
     </section>
 
     <!-- Location -->
-    <section id="location" class="py-12 md:py-24 px-4 max-w-4xl mx-auto">
-        <div class="bg-white p-6 md:p-20 rounded-[30px] md:rounded-[60px] border-2 border-blue-900 shadow-2xl text-center">
+    <section id="location" class="py-12 md:py-24 px-4 max-w-4xl mx-auto text-center">
+        <div class="bg-white p-6 md:p-20 rounded-[30px] md:rounded-[60px] border-2 border-blue-900 shadow-2xl">
             <div class="inline-block navy-bg text-white px-5 py-1 rounded-lg font-black text-base mb-6 md:mb-8">오시는 길</div>
             <h4 class="text-lg md:text-4xl font-black mb-8 navy-text leading-snug px-2 text-center">
                 송파 잠실 교통회관 11층<br />
@@ -230,20 +226,20 @@
             
             <div class="flex flex-col items-center space-y-8 md:space-y-12">
                 <div class="flex flex-col items-center gap-2">
-                    <div class="bg-red-50 p-4 md:p-10 rounded-full mb-1">
-                        <i data-lucide="map-pin" class="text-red-600 w-14 h-14 md:w-28 md:h-28"></i>
+                    <div class="bg-red-50 p-4 md:p-10 rounded-full mb-1 shadow-sm">
+                        <i data-lucide="map-pin" class="text-red-600 w-14 h-14 md:w-24 md:h-24"></i>
                     </div>
                     <p class="text-lg md:text-4xl font-black text-gray-800 tracking-tight text-center">서울 송파구 올림픽로 319</p>
                     <p class="text-base md:text-2xl font-bold text-gray-500 text-center">잠실역 10번 출구 교통회관 11층</p>
                 </div>
                 
                 <div class="flex items-center gap-3 justify-center">
-                    <i data-lucide="clock" class="text-gray-400 w-12 h-12 md:w-20 md:h-20"></i>
+                    <i data-lucide="clock" class="text-gray-400 w-12 h-12 md:w-16 md:h-16"></i>
                     <p class="text-lg md:text-4xl font-black text-gray-700 text-center">평일 09:00 ~ 18:00</p>
                 </div>
 
                 <div class="navy-bg text-white p-6 md:p-10 rounded-[25px] md:rounded-[40px] flex flex-col md:flex-row items-center gap-4 md:gap-8 shadow-2xl border-b-[6px] md:border-b-[12px] border-yellow-400 max-w-2xl w-full">
-                    <i data-lucide="car" class="text-yellow-400 w-20 h-20 md:w-36 md:h-36 animate-pulse flex-shrink-0"></i>
+                    <i data-lucide="car" class="text-yellow-400 w-20 h-20 md:w-32 md:h-32 animate-pulse flex-shrink-0"></i>
                     <div class="text-center md:text-left">
                         <p class="font-black text-xl md:text-4xl mb-1 text-center md:text-left">방문 조합원님 주차비 무료!</p>
                         <p class="text-blue-100 text-sm md:text-xl font-bold leading-tight text-center md:text-left">안내데스크에서 주차권을 확인해 주세요.</p>
@@ -256,7 +252,6 @@
     <!-- Footer -->
     <footer class="bg-slate-900 text-slate-400 py-12 px-4 text-center">
         <div class="max-w-4xl mx-auto">
-            <!-- 푸터 이름 및 회사명 분리 수정 -->
             <div class="mb-4">
                 <p class="font-black text-white text-lg md:text-3xl tracking-tighter text-center">
                     개인택시양수도종합안내센터
